@@ -11,8 +11,8 @@ __all__ = ["setup", "update_html_context"]
 
 
 project = "project-template"
-copyright = "2023, Litestar-Org"
-author = "Litestar-Org"
+copyright = "2023, phantom-nms"
+author = "niels van hooij"
 
 extensions = [
     "sphinx.ext.intersphinx",
@@ -79,17 +79,10 @@ html_theme_options = {
         "Documentation": "index",
         "Community": {
             "Contributing": {
-                "description": "Learn how to contribute to the Litestar project",
-                "link": "https://docs.litestar.dev/2/contribution-guide.html",
+                "description": "Learn how to contribute to the phantom nms project",
                 "icon": "contributing",
             },
-            "Code of Conduct": {
-                "description": "Review the etiquette for interacting with the Litestar community",
-                "link": "https://github.com/litestar-org/.github/blob/main/CODE_OF_CONDUCT.md",
-                "icon": "coc",
-            },
         },
-        "Help": "https://github.com/orgs/litestar-org/discussions",
     },
 }
 
